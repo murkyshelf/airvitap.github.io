@@ -202,6 +202,27 @@
   orcid: 0000-0002-4655-3773
   plugin: sources.py
   file: sources.yaml
+- id: doi:10.1109/ACCESS.2022.3216665
+  title: 'Loki: A Physical Security Key Compatible IoT Based Lock for Protecting Physical
+    Assets'
+  authors:
+  - Sibi Chakkaravarthy Sethuraman
+  - Aditya Mitra
+  - Kuan-Ching Li
+  - Anisha Ghosh
+  - M. Gopinath
+  - Nitin Sukhija
+  publisher: IEEE Access
+  date: '2022-01-01'
+  link: https://doi.org/g64sgd
+  tyoe: journal
+  'description:': 'Loki: A Physical Security Key Compatible IoT Based Lock for Protecting
+    Physical Assets'
+  tags:
+  - open science
+  - collaboration
+  plugin: sources.py
+  file: sources.yaml
 - id: doi:10.1109/ICDCSW63686.2024.00023
   title: 'Saila: Human Interface Device (HID) Injection Protection with Smart Phone
     based Passwordless Security'
@@ -255,21 +276,6 @@
   publisher: Computer Science Review
   date: '2023-11-01'
   link: https://doi.org/g64rnf
-  plugin: sources.py
-  file: sources.yaml
-- id: doi:10.1109/ACCESS.2022.3216665
-  title: 'Loki: A Physical Security Key Compatible IoT Based Lock for Protecting Physical
-    Assets'
-  authors:
-  - Sibi Chakkaravarthy Sethuraman
-  - Aditya Mitra
-  - Kuan-Ching Li
-  - Anisha Ghosh
-  - M. Gopinath
-  - Nitin Sukhija
-  publisher: IEEE Access
-  date: '2022-01-01'
-  link: https://doi.org/g64sgd
   plugin: sources.py
   file: sources.yaml
 - id: doi:10.1109/TCE.2021.3085888
