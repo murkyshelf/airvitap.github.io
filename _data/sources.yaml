@@ -17,7 +17,27 @@
   repo: greenelab/meta-review
 
 - id: doi:10.1016/j.csbj.2020.05.017
-  image: https://ars.els-cdn.com/content/image/1-s2.0-S2001037020302804-gr1.jpg
 
-- id: doi:10.7554/eLife.32822
-  image: https://iiif.elifesciences.org/lax:32822%2Felife-32822-fig8-v3.tif/full/863,/0/default.webp
+- id: doi:10.1016/j.cose.2023.103600
+ 
+
+- id: doi:10.1016/j.cosrev.2023.100600
+ 
+
+- id: doi:10.1109/ACCESS.2022.112721
+
+
+- id: doi:10.1109/TCE.2021.3002145
+  
+
+- id: doi:10.1016/j.jsir.2021.07.007
+  
+
+- id: doi:10.1109/TCE.2021.3003217
+  
+
+- id: doi:10.1016/j.compeleceng.2022.107751
+  
+
+- id: doi:10.1016/j.cosrev.2021.100433
+  
