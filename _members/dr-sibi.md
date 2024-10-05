@@ -1,7 +1,7 @@
 ---
 name: Dr Sibi Chakravarthy S
 image: images/photo.jpg
-role: postdoc
+role: coordinator
 affiliation: VIT AP University
 aliases:
 
