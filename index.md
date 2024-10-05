@@ -3,20 +3,10 @@
 
 # Lab Website Template
 
-[Lab Website Template](https://github.com/greenelab/lab-website-template) is an easy-to-use, flexible website template for [labs](https://www.greenelab.com/).
-Spend less time worrying about managing a website and citations, and more time running your lab.
 
-{%
-  include button.html
-  type="docs"
-  link="https://greene-lab.gitbook.io/lab-website-template-docs"
-%}
-{%
-  include button.html
-  type="github"
-  text="On GitHub"
-  link="greenelab/lab-website-template"
-%}
+The AIR Lab is an initiative brought to reality at VIT-AP University and is the first of its kind in the country. Set up with the aim of exploring the latest technologies in the field, such as deep learning, machine learning, and robotics, the AIR Lab has given students a platform to not only learn about these technologies but also work with them to build something unique. The lab fosters an ideal technology-rich environment that promotes student-driven learning, offering a new and innovative approach compared to traditional methods. The lab has grown with more students bringing in unique and valuable ideas. With the support of faculty, it aims to be a hub where cutting-edge technologies and innovative ideas can flourish and be brought to life.
+
+
 
 {% include section.html %}
 
