@@ -1,3 +1,13 @@
+- id: doi:10.1109/ACCESS.2022.3216665
+  tyoe: 'journal'
+  description:: 'Loki: A Physical Security Key Compatible IoT Based Lock for Protecting Physical
+    Assets'
+  date: '2022-01-01'
+  tags:
+    - open science
+    - collaboration
+
+
 - id: doi:10.1101/573782
 
 - id: doi:10.1109/ICDCSW63686.2024.00023
@@ -14,7 +24,6 @@
 - id: doi:10.1016/j.cosrev.2023.100600
 
 
-- id: doi:10.1109/ACCESS.2022.3216665
   
 
 - id: doi:10.1109/TCE.2021.3085888
