@@ -11,74 +11,72 @@ The AIR Lab is an initiative brought to reality at VIT-AP University and is the 
 {% include section.html %}
 
 ## Highlights
-
 {% capture text %}
-
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+Our research focuses on cutting-edge technologies and innovative solutions in the fields of cybersecurity, IoT, and artificial intelligence. We strive to push the boundaries of knowledge and create impactful advancements that address real-world challenges.
 
 {%
-  include button.html
-  link="research"
-  text="See our publications"
-  icon="fa-solid fa-arrow-right"
-  flip=true
-  style="bare"
+include button.html
+link="research"
+text="See our publications"
+icon="fa-solid fa-arrow-right"
+flip=true
+style="bare"
 %}
 
 {% endcapture %}
 
 {%
-  include feature.html
-  image="images/photo.jpg"
-  link="research"
-  title="Our Research"
-  text=text
+include feature.html
+image="images/photo.jpg"
+link="research"
+title="Our Research"
+text=text
 %}
 
 {% capture text %}
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+We work on a diverse range of projects, from developing novel security solutions to creating advanced AI-powered systems. Our projects aim to solve complex problems and contribute to technological progress across various domains.
 
 {%
-  include button.html
-  link="projects"
-  text="Browse our projects"
-  icon="fa-solid fa-arrow-right"
-  flip=true
-  style="bare"
+include button.html
+link="projects"
+text="Browse our projects"
+icon="fa-solid fa-arrow-right"
+flip=true
+style="bare"
 %}
 
 {% endcapture %}
 
 {%
-  include feature.html
-  image="images/photo.jpg"
-  link="projects"
-  title="Our Projects"
-  flip=true
-  style="bare"
-  text=text
+include feature.html
+image="images/photo.jpg"
+link="projects"
+title="Our Projects"
+flip=true
+style="bare"
+text=text
 %}
 
 {% capture text %}
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+Our team consists of dedicated researchers, talented engineers, and visionary thinkers. Together, we collaborate to drive innovation and make significant contributions to our fields of expertise.
 
 {%
-  include button.html
-  link="team"
-  text="Meet our team"
-  icon="fa-solid fa-arrow-right"
-  flip=true
-  style="bare"
+include button.html
+link="team"
+text="Meet our team"
+icon="fa-solid fa-arrow-right"
+flip=true
+style="bare"
 %}
 
 {% endcapture %}
 
 {%
-  include feature.html
-  image="images/photo.jpg"
-  link="team"
-  title="Our Team"
-  text=text
+include feature.html
+image="images/photo.jpg"
+link="team"
+title="Our Team"
+text=text
 %}
