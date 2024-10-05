@@ -1,8 +1,8 @@
 ---
 name: Sai Sanjay
 image: images/photo.jpg
-affliation : VIT AP University
 role: undergrad
+affliation : VIT AP University
 description: 
 links:
   email: saisanjay7660@gmail.com
