@@ -1,47 +1,283 @@
-- title: Cool Dataset
-  subtitle: a subtitle
+- title: VISU
+  subtitle: 
   group: featured
   image: images/photo.jpg
   link: https://github.com/
-  description: Lorem ipsum _dolor sit amet_, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-  repo: greenelab/lab-website-template
+  description: VISU(VIT-AP Intelligent super Utility) is a 3D printed robot built from scratch using minimal design and simple yet sophisticated electronics. Backed by Arduino and Raspberry pi and customized so as to make it modular in terms of design and technology that expands its range of abilities. The robot comes equipped with Voice and Face recognition tech. The arms and torso are powered by high torque Servo motors that provide enough power to lift a baby. Powered by over 25 motors, the robot can effortlessly mimic human movement. Every piece of tech involved has been hacked, modified and customized to satisfy constraints that were once a limitation
+  repo: 
   tags:
     - resource
 
-- title: Cool Package
-  subtitle: a subtitle
+- title: Sentinel X Aka Spooky V2
+  subtitle: 
   group: featured
   image: images/photo.jpg
   link: https://github.com/
-  description: Lorem ipsum _dolor sit amet_, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-  repo: greenelab/lab-website-template
+  description: As global conflicts and territorial disputes continue to escalate, the rising toll of human casualties on the battlefield has become an increasingly pressing concern. It is evident that traditional human-operated surveillance systems not suffice with the pace of modern warfare. To address this challenge, we have developed SentinelX, an Autonomous Reconnaissance System designed to monitor borders around the clock. SentinelX is a quadrarobot enabled by advanced Artificial Intelligence, featuring state-of-the-art facial recognition and weapon detection pipelines to detect and monitor intruders within our territory. Equipped with a sophisticated camera and proximity sensors, SentinelX is a four-legged robot capable of navigating undetected in its surroundings, allowing it to effectively and efficiently monitor a designated region without any human intervention.
+  repo: 
   tags:
     - resource
 
-- title: Cool Tutorial
-  subtitle: a subtitle
+- title: TARS
+  subtitle: 
   image: images/photo.jpg
   link: https://github.com/
-  description: Lorem ipsum _dolor sit amet_, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-  repo: greenelab/lab-website-template
+  description: T.A.R.S is a quadruped that can walk at any terrain. The main aim of the project is to leverage this technology in botanical gardens so as to monitor plant health. The other application of it being monitoring condition of the crop. T.A.R.S uses unique creep gait. It is specially programmed to mimic human and spider movement simultaneously. The program being quite small is written to have tars move over 500 steps at one Command.
+  repo: 
   tags:
     - resource
     - publication
 
-- title: Cool Web App
-  subtitle: a subtitle
+- title: Project Dante
+  subtitle: 
   image: images/photo.jpg
   link: https://github.com/
-  description: Lorem ipsum _dolor sit amet_, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-  repo: greenelab/lab-website-template
+  description: Project Dante is an e-bike that is equipped with state of the art object detection and integrated with application controlled features. Mechanically, the vehicle can travel over 80 Kms in one single charge. 
+  repo: 
   tags:
-    - software
+    - resource
 
-- title: Cool Web Server
-  subtitle: a subtitle
+- title: Vinci X
+  subtitle: 
   image: images/photo.jpg
   link: https://github.com/
-  description: Lorem ipsum _dolor sit amet_, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-  repo: greenelab/lab-website-template
+  description: Vinci X is a body vital monitoring garment that records body vitals and sends them to cloud and app where Machine Learning algorithms analyze the data and provide user with a detailed report both in real-time and post-workout. Users can in real-time check their individual muscle activity and ECG along with other vitals. A visualization shows, graphically, the exerted muscle force and areas to work on. The same report can be sent to a trainer or a physician and seek help.The garment has embedded sensors in it.All the sensor values are transmitted to app and cloud with a cellular based ARC that powers the suit and is detachable. Customers can use this garment to help them with working on weak areas and increase workout efficiency by 65%. This research was published in IEEE Transactions on Consumer Electronics
+  repo: 
+  tags:
+    - resource
+    - publication
+
+- title: CEREBRO
+  subtitle: The Brain Controlled Wheelchair
+  image: images/photo.jpg
+  link: https://github.com/
+  description: The project Cerebro is the Mind controlled wheelchair which controls the direction and motion based on the decision taken by the user. The mindwave headset is used in the mindcontrolled wheelchair to pick up EEG signals from the brain. These signals are processed by a microcontroller which in turn takes a decision regarding the motion and direction of wheelchair and accordingly drives the motor.
+  repo: 
+  tags:
+    - resource
+
+- title: AI Chatbot
+  subtitle: VIT-Assist and VITapian
+  image: images/photo.jpg
+  link: https://github.com/
+  description: Vitapian is a chatbot used by VIT AP to answer its most common and general queries. Vitapian lets you know about the teachers, their cabin numbers along with the intercom details and other miscellaneous.
+  repo: 
+  tags:
+    - resource
+
+
+- title: OhYes OS
+  subtitle: 
+  image: images/photo.jpg
+  link: https://github.com/
+  description: In the world of operating systems linux leads the biggest market share from embedded IoT devices to super computers.There are plenty of flavours (linux versions) for each use case, but we are yet to have an OS tailored for AI developers. We bring you the OhYes OS an OS tailored for AI developers ranging from ninjas to babies. This is custom build operating system developed by our second year student. 
+  repo: 
+  tags:
+    - resource
+
+- title: No Nudity (NN)
+  subtitle: 
+  image: images/photo.jpg
+  link: https://github.com/
+  description: The aim of this project is to censor the obscene and indecent images on a website. It is a plugin developed for accomplishing the same using neural networks. Once the extension is installed, all the images on a website accessed by the user will be processed and based on the extent of nudity depicted, images will be removed on the client side.
+  repo: 
+  tags:
+    - resource
+
+- title: Coconut Tree Detection
+  subtitle: 
+  image: images/photo.jpg
+  link: https://github.com/
+  description: What could possibly be the intention behind knowing the number of trees in an area? Be it Disaster Management, calculating the assets of the state, or under advanced circumstances, the ability to detect the quality of the trees, the Coconut Detection System is one to look into. Using image processing to detect coconut trees from aerial views, is an innovative design which requires object detection models. During the development of the project, the members also developed a new object detection model – RetinaNet model. A combination of Focal Loss and ResNet, this new model surpassed the R-CNN model, while still being a stage one detector. The final results of the project were accurate to a point where it could be deployed on a drone and be applied on live-feed. There is also further scope to better the model. This is a collaborative work with APSAC. This paper is submitted to Journal of Scientific and Industrial Research. 
+  repo: 
+  tags:
+    - resource
+
+- title: ReMedic
+  subtitle: 
+  image: images/photo.jpg
+  link: https://github.com/
+  description: With technology developing, the health sector has been developing too. ReMedic is yet another step towards faster medical treatment to accident victims. It is an emergency service and aims at shortening the time by incorporating new-age technologies like drones and health monitoring sensors. In case of an accident, the UID and GPS Coordinates call for the nearest hospital’s assistance by sending live data and feed using ML Algorithms. The case is then assigned to the available doctor. Machine Learning is used to analyse the patient’s condition and suggest solutions to the doctor. Medication is loaded into drones and sent to the accident site for initial treatment while the ambulance is sent to pick the victim up. ReMedic aims at redefining and improving the emergency services and save lives.
+  repo: 
+  tags:
+    - resource
+
+- title: Nirvana
+  subtitle: 
+  image: images/photo.jpg
+  link: https://github.com/
+  description: Nirvana is a Retail product classification checkout unit that use state-of-the-art computer vision to identify products as you drop them in the cart. Also, remove the product from the invoice that is removed from the cart. All by just using AI. Nirvana helps you in skipping checkout lines with ease and doesn’t waste your time and energy on waiting in checkout lines. Scan and Go is the future.
+  repo: 
+  tags:
+    - resource
+
+
+- title: Whatsapp Chatbot
+  subtitle: 
+  image: images/photo.jpg
+  link: https://github.com/
+  description: VIT-AP Whatsapp chatbot allows students to retrieve their timetable, class timings, announcements made on Vtop by simply just asking the bot. The bot leverages state-of-the-art NLP to recognise your simple commands and fetches data from the DB. Therefore, giving the student On-the-go updates.
+  repo: 
+  tags:
+    - resource
+
+
+- title: Furniture Land
+  subtitle: 
+  image: images/photo.jpg
+  link: https://github.com/
+  description: Furniture Land is an Augmented Reality Application that can be linked with any online furniture marketplace, bringing in the products in virtual reality to allow customers pre-plans the furniture locations at home. The application also allows user to purchase and place an order from the cart option in the app
+  repo: 
+  tags:
+    - resource
+
+
+- title: Furniture Land
+  subtitle: 
+  image: images/photo.jpg
+  link: https://github.com/
+  description: Furniture Land is an Augmented Reality Application that can be linked with any online furniture marketplace, bringing in the products in virtual reality to allow customers pre-plans the furniture locations at home. The application also allows user to purchase and place an order from the cart option in the app
+  repo: 
+  tags:
+    - resource
+
+- title: DOWCS
+  subtitle: Decentralized Open Web Cryptographic Standard
+  image: images/photo.jpg
+  link: https://github.com/
+  description: Security in web services is not well defined and is largely based on measures employed by the organization providing the service, the effectiveness of which vary greatly depending on the expertise, implementation, and business motivation. To address the mentioned issue, this research proposes an open standard called Decentralized Open Web Cryptographic Standard (DOWCS) and reference implementation for decentralized protection of sensitive data. Services may adhere to the standards, to assure security to the end-user. Taking OAuth and PGP as reference models, the standard incorporates multiple layers of security to ensure secrecy of the said data while also decentralizing the key information required to derive the confidential data from the encrypted format. 
+  repo: 
+  tags:
+    - resource
+
+
+- title: SimplyMime
+  subtitle: 
+  image: images/photo.jpg
+  link: https://github.com/
+  description: "SimplyMime is a wholesome gesture recognition system to make life simpler. It combines the power of Artificial Intelligence of Things (AIoT) to provide a better and faster user experience in the ubiquitous environment just with the movement of the fingers. The user can control the systems in the integrated ubiquitous environment just by moving the hands in the air and making gestures just like we have seen in the movies. A lot of day-to-day activities like moving the mouse, controlling volume, drawing, opening specific applications, home automations etc., can be much simpler with our SimplyMime. SimplyMime not only makes this a reality but also follows the user around their room so that every gesture the user makes is clearly read, and the task is accomplished. The system would track the user movements and a webcam mounted on to a microcontroller would turn to the user wherever the user is in the room. The user can further make relevant gestures with their hands and the system will immediately respond. SimplyMime uses face detection, pose estimation combined with port communication to the microcontroller to achieve this. This system can be further scaled and used for various other purposes like gaming, Unmanned vehicle control (e.g.: drones) and other controls etc. "
+  repo: 
+  tags:
+    - resource
+
+
+
+- title: iDrone
+  subtitle: IoT-Enabled Unmanned Aerial Vehicles for Detecting WildFires using Convolutional Neural Networks
+  image: images/photo.jpg
+  link: https://github.com/
+  description: "The rise of global temperatures, over the past few decades, has disrupted the usual balance of nature. As a result of increasing temperatures, wildfires have destroyed millions of acres of land, thousands of structures, and homes. The pollution and toxic gases produced by the wildfires are carried out to thousands of miles, thus threatening the lives all around the world. Most wildfires occur due to anthropogenic factors, which cannot be predicted solely based on climate conditions. Henceforth, to detect wildfires before escalating, we propose iDrone, which is a wildfire detection system equipped with an end-to-end CNN image classification model: XtinguishNet, trained on a wildfire imagery dataset to detect the possible flames or smokes in an image. In addition, our approach also acquires the weather data and the intensity of the fire. Contrasting with existing wildfire detection systems, our proposed solution is a fusion of the Internet of Things (IoT) and Deep Learning, aiming to provide a one-stop solution for all the needs required to minimize the damage caused by wildfires. When validated and tested using various benchmark datasets, video surveillance, iDrone acquired a high accuracy of 98.36% with the least computational power."
+  repo: 
+  tags:
+    - resource
+  
+- title: Efficientword-Net
+  subtitle: An Open Source Hotword Detection Engine based on One-shot Learning
+  image: images/photo.jpg
+  link: https://github.com/
+  description: "Voice assistants like Siri, Google Assistant, Alexa etc. are used widely across the globe for home automation, these require the use of special phrases also known as hotwords to wake it up and perform an action like “Hey Alexa!”, “Ok Google” and “Hey Siri” etc. These hotwords are detected with lightweight real-time engines whose purpose is to detect the hotwords uttered by the user. This research presents the design and implementation of a hotword detection engine based on one-shot learning which detects the hotword uttered by the user in real-time with just one or few training samples of the hotword. This approach is efficient when compared to existing implementations because the process of adding a new hotword in the existing systems requires enormous amounts of positive and negative training samples and the model needs to retrain for every hotword. This makes the existing implementations inefficient in terms of computation and cost. The architecture proposed in this research has achieved an accuracy of 96.8%. (e.g.: drones) and other controls etc. "
+  repo: 
+  tags:
+    - resource
+
+- title: Cleo
+  subtitle: Smart Glasses to monitor intake of alcohol and number of smokes 
+  image: images/photo.jpg
+  link: https://github.com/
+  description: "Over 60% of people around the globe consume Alcohol and Cigars daily. Many intake them beyond the permitted limit causing disease such as lung cancer, Liver and kidney Failure. Chain-smokers and Alcoholics do not have a metric or system that monitors their intake level and alerts the user in case of excess consumption. To help users monitor their consumption, we introduce Cleo Eyeglasses in this research. Cleo is a wearable spectacles with mounted camera and single board computer that performs custom trained object recognition to identify alcoholic beverages and cigarettes. Upon recognition, a log is automatically maintained in the corresponding mobile application. The user can set the limit or threshold on consumption levels. If the system detects consumption level beyond the permitted threshold, an alert is sent to the prescribed medical official for assistance"
+  repo: 
+  tags:
+    - resource
+
+- title: MERP
+  subtitle: MERP Extended Reality Portal
+  image: images/photo.jpg
+  link: https://github.com/
+  description: "MERP, or the MERP Extended Reality Portal, is a revolutionary product in the field of Virtual and Augmented Reality. It is a modular IoT device designed to replace traditional VR glasses and headsets, enabling users to become their own Avatars in the Metaverse without risking the health hazards and accidents caused by the use of VR headsets. The device offers a unique and immersive experience that seamlessly blends the physical world with the digital world, making it an ideal solution for both entertainment and enterprise applications. One of the major benefits of MERP is that it eliminates the need for users to wear bulky VR headsets that can cause discomfort, fatigue, and even physical injuries. Instead, the device employs a modular design that allows users to customize the experience to their preferences. "
+  repo: 
+  tags:
+    - resource
+
+- title: Vikrant
+  subtitle: The honeypot (India's Indigenous Honeypot)
+  image: images/photo.jpg
+  group: featured
+  link: https://github.com/
+  description: "Vikrant: The honeypot ensemble and Analytics platform is an innovative solution that combines honeypot technology and Security Information and Event Management (SIEM) to provide organizations with a comprehensive approach to managing their security. The data collected from multiple open-source honeypots and system information and intrusion detection system (IDS) integrations make Vikrant a powerful tool for security companies and researchers. This document will explore Vikrant's aim, objectives, and key features and how they can be used to manage organisational security effectively."
+  repo: 
+  tags:
+    - resource
+
+- title: Loki
+  subtitle: 
+  image: images/photo.jpg
+  group: featured
+  link: https://github.com/
+  description: "The twenty first century has witnessed an enormous rise in data produced per person and it has also witnessed newer and advanced forms of digital attacks and instinctively, witnessed a rise in the need for data protection. However, the essential assets are still physical and needs to be protected. Usually vaults, lockers, safes and so on and used for the safe keeping of the physical assets. However, studies have shown they are vulnerable to various attacks. This research proposes a novel and robust physical lock for safekeeping of physical assets called Loki. A Physical Security key is used to authenticate the lock and it uses a cloud-server architecture. It employs best cloud security practices, proper use of cryptography and trusted computing to mitigate all common risks. The cloud architecture runs a Virtual Machine (VM) to securely authenticate using Fast IDentity Online (FIDO2) specifications. The physical authenticator data is stored in the cloud for securityand only accessed when an unlock is requested. The cloud allows web-based physical key management for adding more keys or removing keys. The whole system has been implemented in a Internet of Things (IoT) scenario."
+  repo: 
+  tags:
+    - resource
+
+- title: MetaKey/MetaSecure
+  subtitle: 
+  image: images/photo.jpg
+  group: featured
+  link: https://github.com/
+  description: "Metaverse in general holds a potential future for cyberspace. At the beginning of Web 2.0, it was witnessed that people were signing in with various pseudonyms or ‘nyms’, risking their online identities by increasing presence of fake accounts leading to difficulty in unique identification for different roles. However, in Web 3.0, the metaverse, a user's identity is tied to their original identity, where risking one poses a significant risk to the other. Therefore, this research proposes a novel authentication system for securing digital assets, online identity, avatars, and accounts called Metasecure where a unique id for every entity or user to develop a human establishment is essential on a digital platform. The proposed passwordless system provides three layers of security using device attestation, facial recognition and use of physical security keys, security keys, or smartcards in accordance to Fast IDentity Online (FIDO2) specifications. It provides SDKs for authentication on any system including VR/XR glasses, thus ensuring seamlessness in accessing services in the Metaverse."
+  repo: 
+  tags:
+    - resource
+
+
+- title:  Hybrid Proactive Monitoring
+  subtitle: (Integrating SIEM and XDR)
+  image: images/photo.jpg
+  group: featured
+  link: https://github.com/
+  description: "Cyber resilience strategy is crucial for business continuity since it strengthens an organization's safety profile and reduces the potential danger of key infrastructure exposure. Consequently, it is an active study area that offers a novel approach to Cyber Security. With the increasing frequency and sophistication of cyber-attacks, it is essential to have a robust cyber security infrastructure that can detect, prevent, and respond to potential threats. However, a sparsity of case studies speaks to the adoption or measurement of these novel approaches within a complex corporate environment. Defense in depth could be employed to offer an envisaged and layered security strategy, enhancing an organization's overall security. We put forward a security platform that offers endpoint and cloud workloads with coherent XDR (eXtended Detection and Response) and SIEM (Security Information and Event Management) protection. Our research explores the use of the SIEM tool Wazuh by incorporating extra layers of security via tools such as Network Analyzer and File Auditor. This, in turn, contributes to defense in depth by presenting an integrated picture of security-related events, enhancing threat detection capabilities, leveraging threat intelligence, assisting with compliance initiatives, and facilitating real-time alerting and surveillance. "
+  repo: 
+  tags:
+    - resource
+
+
+- title: "ChatGPT: 21st Century Cyber weapon?"
+  subtitle: 
+  image: images/photo.jpg
+  group: featured
+  link: https://github.com/
+  description: "Artificial Intelligence has revolutionized various fields, including Cyber security where it has enhanced detection andprevention of security breaches. ChatGPT, a chatbot has shown such capabilities but recent abuses of the same haveraised concerns about its potential to cause harm in unexpected ways. Attackers have successfully poisoned ChatGPTto demonstrate destructive behaviour. This research examines the possibilities of an AI-Assisted Kill-chain and therelated security threats. This research also investigates the possibilities of making LLMs as a Cyber Weapon."
+  repo: 
+  tags:
+    - resource
+
+- title: ". Oil Spill Collector using Acoustic Levitation"
+  subtitle: 
+  image: images/photo.jpg
+  group: featured
+  link: https://github.com/
+  description: "Introducing an innovative approach to oil spill cleanup, the Acoustic Levitation-based Oil Spill Collector utilizes high-frequency sound waves to selectively lift and collect oil droplets from water surfaces. Key components include specialized transducers emitting sound waves, a resonance chamber for stable levitation, and an oil collection system with a floating mesh. This non-contact method ensures precision and selectivity in oil removal without disturbing the surrounding environment. Its scalability makes it suitable for various spill sizes, while ongoing research focuses on addressing challenges related to scalability, energy efficiency, and real-world applicability. This technology represents a significant advancement in eco-friendly and efficient environmental remediation, promising a sustainable solution for mitigating the impact of both large-scale industrial spills and smaller, localized incidents"
+  repo: 
+  tags:
+    - resource
+
+- title: "mCaptcha, Replacing CAPTCHAs with Rate-limiters"
+  subtitle: 
+  image: images/photo.jpg
+  group: featured
+  link: mcaptcha.org
+  description: "In recent years, security preservation has drawn increasing attention due to the Internet's indisputable influence on many facets of human existence. The majority of web users possess logging profiles on websites, and while most websites require only human users to sign up, some automated computer programmes have been known to enter these websites and supply fraudulent registration information to access the resources of these websites. The initial purpose of CAPTCHAs, which was to defend web services from DoS attacks, has been abandoned in favor of pursuing humanrobot differentiation. Hence we present a Proof-of-Work-based rate limiter CAPTCHA, mCaptcha, with variable difficulty that provides reliable security and accessibility. Extensive security and usability assessments are carried out to assess the effectiveness of mCaptcha. We also make the mCaptcha system's source code, and assessment of usability interfaces available to the public in order to aid CAPTCHA security research."
+  repo: 
+  tags:
+    - resource
+
+
+
+- title: DiffScaler
+  subtitle: Text Guided High Bitrate Novel Video Generation with Human Face Swap using Diffusion Pair Up-scale Temporal Transformer
+  image: images/photo.jpg
+  link: https://github.com/
+  description: The generation of novel high-bitrate videos from textual prompt is one of the most challenging tasks in the current times. Adding to the complexity, the task of changing character faces in generated videos while maintaining consistent quality and data integrity is complicated. In this paper, we address this problem by presenting a solution that produces high-resolution videos and allows swapping of character faces using IMG2IMG diffusion. We propose a Diffusion Pair Upscale Temporal Transformer integrated within a U-Net backbone in the Stable Diffusion-XL model to generate high-quality videos. This architecture is capable of swapping character faces as instructed. The experimental results shown in this paper prove to be a massive potential for filmmakers and especially the production industry, offering a path to visualize their scripts like never before.
+  repo: 
   tags:
     - software
+    - publication
