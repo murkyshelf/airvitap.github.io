@@ -2,13 +2,13 @@
 
 # team member roles
 
-pi:
+director:
   icon: fa-solid fa-microscope
-  description: Principal Investigator
+  description: Director of the lab
 
-postdoc:
+coordinator:
   icon: fa-solid fa-glasses
-  description: Postdoctoral Researcher
+  description: Coordinator
 
 phd:
   icon: fa-solid fa-graduation-cap
