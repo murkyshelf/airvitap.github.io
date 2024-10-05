@@ -182,27 +182,11 @@
   - Casey S. Greene
   - Anthony Gitter
   publisher: PLOS Computational Biology
-  date: '2020-12-04'
+  date: '2019-06-24'
   link: https://doi.org/c7np
   orcid: 0000-0002-4655-3773
-  plugin: sources.py
-  file: sources.yaml
-  type: paper
-  description: Lorem ipsum _dolor_ **sit amet**, consectetur adipiscing elit, sed
-    do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-  image: https://journals.plos.org/ploscompbiol/article/figure/image?size=inline&id=info:doi/10.1371/journal.pcbi.1007128.g001&rev=2
-  buttons:
-  - type: manubot
-    link: https://greenelab.github.io/meta-review/
-  - type: source
-    text: Manuscript Source
-    link: https://github.com/greenelab/meta-review
-  - type: website
-    link: http://manubot.org/
-  tags:
-  - open science
-  - collaboration
-  repo: greenelab/meta-review
+  plugin: orcid.py
+  file: orcid.yaml
 - id: doi:10.1101/573782
   title: Sequential compression of gene expression across dimensionalities and methods
     reveals no single best method or dimensionality
@@ -216,32 +200,122 @@
   date: '2019-03-11'
   link: https://doi.org/gfxjxf
   orcid: 0000-0002-4655-3773
-  plugin: orcid.py
-  file: orcid.yaml
-- id: doi:10.1016/j.csbj.2020.05.017
-  title: Constructing knowledge graphs and their biomedical applications
-  authors:
-  - David N. Nicholson
-  - Casey S. Greene
-  publisher: Computational and Structural Biotechnology Journal
-  date: '2020-01-01'
-  link: https://doi.org/gg7m48
-  image: https://ars.els-cdn.com/content/image/1-s2.0-S2001037020302804-gr1.jpg
   plugin: sources.py
   file: sources.yaml
-- id: doi:10.7554/eLife.32822
-  title: Sci-Hub provides access to nearly all scholarly literature
+- id: doi:10.1109/ICDCSW63686.2024.00023
+  title: 'Saila: Human Interface Device (HID) Injection Protection with Smart Phone
+    based Passwordless Security'
   authors:
-  - Daniel S Himmelstein
-  - Ariel Rodriguez Romero
-  - Jacob G Levernier
-  - Thomas Anthony Munro
-  - Stephen Reid McLaughlin
-  - Bastian Greshake Tzovaras
-  - Casey S Greene
-  publisher: eLife
-  date: '2018-03-01'
-  link: https://doi.org/ckcj
-  image: https://iiif.elifesciences.org/lax:32822%2Felife-32822-fig8-v3.tif/full/863,/0/default.webp
+  - Anisha Ghosh
+  - Aditya Mitra
+  - S Sibi Chakkaravarathy
+  - V S Devi Priya
+  - S Anitha
+  - Rakesh Thoppaen Suresh Babu
+  publisher: 2024 IEEE 44th International Conference on Distributed Computing Systems
+    Workshops (ICDCSW)
+  date: '2024-07-23'
+  link: https://doi.org/g64sf5
+  plugin: sources.py
+  file: sources.yaml
+- id: doi:10.1145/3660628
+  title: 'mCaptcha: Replacing Captchas with Rate limiters to Improve Security and
+    Accessibility'
+  authors:
+  - Aravinth Manivannan
+  - Sibi Chakkaravarthy Sethuraman
+  - Devi Priya Vimala Sudhakaran
+  publisher: Communications of the ACM
+  date: '2024-09-26'
+  link: https://doi.org/g64sf9
+  plugin: sources.py
+  file: sources.yaml
+- id: doi:10.1016/j.cose.2023.103600
+  title: 'A comprehensive examination of email spoofing: Issues and prospects for
+    email security'
+  authors:
+  - Sibi Chakkaravarthy Sethuraman
+  - Devi Priya V S
+  - Tarun Reddi
+  - Mulka Sai Tharun Reddy
+  - Muhammad Khurram Khan
+  publisher: Computers &amp; Security
+  date: '2024-02-01'
+  link: https://doi.org/g64rnb
+  plugin: sources.py
+  file: sources.yaml
+- id: doi:10.1016/j.cosrev.2023.100600
+  title: 'Flow based containerized honeypot approach for network traffic analysis:
+    An empirical study'
+  authors:
+  - Sibi Chakkaravarthy Sethuraman
+  - Tharshith Goud Jadapalli
+  - Devi Priya Vimala Sudhakaran
+  - Saraju P. Mohanty
+  publisher: Computer Science Review
+  date: '2023-11-01'
+  link: https://doi.org/g64rnf
+  plugin: sources.py
+  file: sources.yaml
+- id: doi:10.1109/ACCESS.2022.3216665
+  title: 'Loki: A Physical Security Key Compatible IoT Based Lock for Protecting Physical
+    Assets'
+  authors:
+  - Sibi Chakkaravarthy Sethuraman
+  - Aditya Mitra
+  - Kuan-Ching Li
+  - Anisha Ghosh
+  - M. Gopinath
+  - Nitin Sukhija
+  publisher: IEEE Access
+  date: '2022-01-01'
+  link: https://doi.org/g64sgd
+  plugin: sources.py
+  file: sources.yaml
+- id: doi:10.1109/TCE.2021.3085888
+  title: 'MyWear: A Novel Smart Garment for Automatic Continuous Vital Monitoring'
+  authors:
+  - Sibi C. Sethuraman
+  - Pranav Kompally
+  - Saraju P. Mohanty
+  - Uma Choppali
+  publisher: IEEE Transactions on Consumer Electronics
+  date: '2021-08-01'
+  link: https://doi.org/g6jbvh
+  plugin: sources.py
+  file: sources.yaml
+- id: doi:10.56042/jsir.v80i7.37714
+  title: 'VISU: A 3D Printed Functional Robot for Human Pose Replication'
+  authors: []
+  publisher: Journal of Scientific &amp; Industrial Research
+  date: '2021-07-01'
+  link: https://doi.org/g64sgg
+  plugin: sources.py
+  file: sources.yaml
+- id: doi:10.1109/MCE.2020.3029769
+  title: 'VISU: A 3D Printed Functional Robot for Crowd Surveillance'
+  authors:
+  - Sibi Chakkaravarthy Sethuraman
+  - Pranav Kompally
+  - Srikar Reddy
+  publisher: IEEE Consumer Electronics Magazine
+  date: '2020-01-01'
+  link: https://doi.org/g64sgj
+  plugin: sources.py
+  file: sources.yaml
+- id: doi:10.1016/j.cosrev.2021.100433
+  title: Comprehensive analysis of embeddings and pre-training in NLP
+  authors:
+  - Jatin Karthik Tripathy
+  - Sibi Chakkaravarthy Sethuraman
+  - Meenalosini Vimal Cruz
+  - Anupama Namburu
+  - Mangalraj P.
+  - Nandha Kumar R.
+  - Sudhakar Ilango S
+  - Vaidehi Vijayakumar
+  publisher: Computer Science Review
+  date: '2021-11-01'
+  link: https://doi.org/g64rnp
   plugin: sources.py
   file: sources.yaml
