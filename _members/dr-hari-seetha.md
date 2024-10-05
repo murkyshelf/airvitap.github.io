@@ -1,13 +1,12 @@
 ---
-name: Jane Smith
+name: Dr Hari Seetha
 image: images/photo.jpg
 role: pi
-affiliation: University of Colorado
+affiliation: VIT AP University
 aliases:
-  - J. Smith
-  - J Smith
+
 links:
-  home-page: https://janesmith.com
+  home-page: https://vitap.ac.in
   orcid: 0000-0001-8713-9213
 ---
 
