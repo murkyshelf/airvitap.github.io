@@ -6,7 +6,7 @@ affliation : VIT AP University
 description: 
 links:
   email: ajaykommineni@yahoo.com
-  github : github.com/AjayK47
+  github : AjayK47
   portfolio : ajaykommineni.com
 ---
 
