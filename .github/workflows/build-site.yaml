@@ -26,6 +26,23 @@ jobs:
       - name: Checkout branch contents
         uses: actions/checkout@v4
 
+      # Install Ruby manually on self-hosted runners if not already installed
+      - name: Install Ruby manually (self-hosted runner)
+        if: runner.os == 'Linux' && env.RUNNER_TOOL_CACHE != ''
+        run: |
+          RUBY_VERSION=3.1.4
+          INSTALL_DIR="$RUNNER_TOOL_CACHE/Ruby/${RUBY_VERSION}/x64"
+          COMPLETE_FILE="$INSTALL_DIR.complete"
+          if [ ! -f "$COMPLETE_FILE" ]; then
+            echo "Ruby not installed in tool cache. Installing Ruby ${RUBY_VERSION}..."
+            mkdir -p "$INSTALL_DIR"
+            # Replace the following command with your actual ruby-build command if necessary
+            ruby-build ${RUBY_VERSION} "$INSTALL_DIR"
+            touch "$COMPLETE_FILE"
+          else
+            echo "Ruby ${RUBY_VERSION} is already installed in the tool cache."
+          fi
+
       - name: Install Ruby packages
         uses: ruby/setup-ruby@v1.172.0
         with:
