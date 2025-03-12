@@ -32,6 +32,6 @@ ${DOCKER_RUN} ${PLATFORM} \
     --interactive \
     --tty \
     --publish 4000:4000 \
-    --publish 35729:35729 \
+    --publish 35728:35729 \
     --volume "${WORKING_DIR}:/usr/src/app" \
     ${IMAGE} "$@"
