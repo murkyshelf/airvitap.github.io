@@ -1,5 +1,61 @@
 # DO NOT EDIT, GENERATED AUTOMATICALLY
 
+- id: doi:10.1007/s42979-024-03086-8
+  title: Transfer Learning Based Yogic Posture Recognition System Using Deep Pre-trained
+    Features
+  authors:
+  - Arun Kumar Rajendran
+  - Sibi Chakkaravarthy Sethuraman
+  publisher: SN Computer Science
+  date: '2024-08-01'
+  link: https://doi.org/g874pj
+  orcid: 0000-0001-7778-0453
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.1142/S0219649222500599
+  title: 'EfficientWord-Net: An Open Source Hotword Detection Engine Based on Few-Shot
+    Learning'
+  authors:
+  - R. Chidhambararajan
+  - Aman Rangapur
+  - S. Sibi Chakkaravarthy
+  - Aswani Kumar Cherukuri
+  - Meenalosini Vimal Cruz
+  - S. Sudhakar Ilango
+  publisher: Journal of Information &amp; Knowledge Management
+  date: '2022-07-06'
+  link: https://doi.org/g874pk
+  orcid: 0000-0001-7778-0453
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.1007/s42979-022-01471-9
+  title: 'Cleo: Smart Glasses to Monitor Consumption of Alcohol and Cigarettes'
+  authors:
+  - Sibi Chakkaravarthy Sethuraman
+  - Pranav Kompally
+  - Saraju P. Mohanty
+  - BKSP Kumar Raju
+  - Meenalosini Vimal Cruz
+  publisher: SN Computer Science
+  date: '2022-11-12'
+  link: https://doi.org/g6hwk7
+  orcid: 0000-0001-7778-0453
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.1007/s42979-022-01160-7
+  title: 'iDrone: IoT-Enabled Unmanned Aerial Vehicles for Detecting Wildfires Using
+    Convolutional Neural Networks'
+  authors:
+  - Sibi Chakkaravarthy Sethuraman
+  - Gaurav Reddy Tadkapally
+  - Saraju P. Mohanty
+  - Anitha Subramanian
+  publisher: SN Computer Science
+  date: '2022-04-25'
+  link: https://doi.org/g874pm
+  orcid: 0000-0001-7778-0453
+  plugin: orcid.py
+  file: orcid.yaml
 - id: doi:10.1109/ACCESS.2022.3216665
   title: 'Loki: A Physical Security Key Compatible IoT Based Lock for Protecting Physical
     Assets'
@@ -13,14 +69,57 @@
   publisher: IEEE Access
   date: '2022-01-01'
   link: https://doi.org/g64sgd
+  orcid: 0000-0001-7778-0453
+  plugin: sources.py
+  file: sources.yaml
   tyoe: journal
   'description:': 'Loki: A Physical Security Key Compatible IoT Based Lock for Protecting
     Physical Assets'
   tags:
   - open science
   - collaboration
+- id: doi:10.1109/TCE.2021.3085888
+  title: 'MyWear: A Novel Smart Garment for Automatic Continuous Vital Monitoring'
+  authors:
+  - Sibi C. Sethuraman
+  - Pranav Kompally
+  - Saraju P. Mohanty
+  - Uma Choppali
+  publisher: IEEE Transactions on Consumer Electronics
+  date: '2021-08-01'
+  link: https://doi.org/g6jbvh
+  orcid: 0000-0001-7778-0453
   plugin: sources.py
   file: sources.yaml
+- id: doi:10.1109/ACCESS.2020.3023764
+  title: Design of Intrusion Detection Honeypot Using Social Leopard Algorithm to
+    Detect IoT Ransomware Attacks
+  authors:
+  - S. Sibi Chakkaravarthy
+  - D. Sangeetha
+  - Meenalosini Vimal Cruz
+  - V. Vaidehi
+  - Balasubramanian Raman
+  publisher: IEEE Access
+  date: '2020-01-01'
+  link: https://doi.org/g874pn
+  orcid: 0000-0001-7778-0453
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.1007/s11227-019-02887-6
+  title: Role-based policy to maintain privacy of patient health records in cloud
+  authors:
+  - Akshay Tembhare
+  - S. Sibi Chakkaravarthy
+  - D. Sangeetha
+  - V. Vaidehi
+  - M. Venkata Rathnam
+  publisher: The Journal of Supercomputing
+  date: '2019-06-06'
+  link: https://doi.org/g874pp
+  orcid: 0000-0001-7778-0453
+  plugin: orcid.py
+  file: orcid.yaml
 - id: doi:10.1109/ICDCSW63686.2024.00023
   title: 'Saila: Human Interface Device (HID) Injection Protection with Smart Phone
     based Passwordless Security'
@@ -74,18 +173,6 @@
   publisher: Computer Science Review
   date: '2023-11-01'
   link: https://doi.org/g64rnf
-  plugin: sources.py
-  file: sources.yaml
-- id: doi:10.1109/TCE.2021.3085888
-  title: 'MyWear: A Novel Smart Garment for Automatic Continuous Vital Monitoring'
-  authors:
-  - Sibi C. Sethuraman
-  - Pranav Kompally
-  - Saraju P. Mohanty
-  - Uma Choppali
-  publisher: IEEE Transactions on Consumer Electronics
-  date: '2021-08-01'
-  link: https://doi.org/g6jbvh
   plugin: sources.py
   file: sources.yaml
 - id: doi:10.56042/jsir.v80i7.37714
