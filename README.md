@@ -1,4 +1,4 @@
-Visit **[air.vitap.ac.in/website2](https://air.vitap.ac.in/website2)** 🚀
+Visit **[airvitap.github.io](https://airvitap.github.io)** 🚀
 
 <h1 align="center">Lab Website Template</h1>
 <p align="center">
