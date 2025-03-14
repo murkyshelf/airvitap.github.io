@@ -1,5 +1,5 @@
 ---
-title: Example post 3
+title: Example post 5
 image: images/photo.jpg
 author: john-doe
 tags: biology, medicine
