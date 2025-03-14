@@ -1,6 +1,17 @@
 ---
 header: images/background.jpg
 header-dark: true
+nav_links:
+  - name: Home
+    link: /
+  - name: Research
+    link: /research
+  - name: Projects
+    link: /projects
+  - name: Team
+    link: /team
+  - name: Contact
+    link: /contact
 ---
 
 # Artificial Intelligence & Robotics Center
@@ -25,42 +36,37 @@ The AIR Lab is an initiative brought to reality at VIT-AP University and is the 
 {% include section.html %}
 
 ## Latest News
+
 {:.center}
 
-<div class="news-carousel-container" style="max-width: 100%; margin: 30px auto; position: relative; overflow: hidden;">
-  <div class="news-carousel" style="display: flex; transition: transform 0.8s ease; width: 100%;">
-    {% for post in site.posts limit:15 %}
-      <div class="carousel-item" style="min-width: 33.33%; padding: 0 15px; box-sizing: border-box;">
-        <div style="border-radius: 8px; overflow: hidden; box-shadow: 0 4px 12px rgba(0,0,0,0.1); height: 100%;">
+<div class="news-container" style="max-width: 100%; margin: 30px auto; position: relative;">
+  <div class="news-column" style="width: 100%;">
+    {% for post in site.posts limit:5 %}
+      <div class="news-item" style="margin-bottom: 15px; border-radius: 8px; overflow: hidden; box-shadow: 0 2px 8px rgba(0,0,0,0.1);">
+        <div style="display: flex; align-items: center;">
           {% if post.image %}
-          <div style="height: 180px; overflow: hidden;">
+          <div style="width: 100px; height: 80px; flex-shrink: 0; overflow: hidden;">
             <img src="{{ post.image | relative_url }}" alt="{{ post.title }}" style="width: 100%; height: 100%; object-fit: cover;">
           </div>
           {% else %}
-          <div style="height: 180px; background-color: #f0f0f0; display: flex; align-items: center; justify-content: center;">
-            <i class="fa-regular fa-newspaper" style="font-size: 40px; color: #888;"></i>
+          <div style="width: 100px; height: 80px; background-color: #f0f0f0; display: flex; align-items: center; justify-content: center; flex-shrink: 0;">
+            <i class="fa-regular fa-newspaper" style="font-size: 24px; color: #888;"></i>
           </div>
           {% endif %}
-          <div style="padding: 20px;">
-            <p style="color: #666; margin-bottom: 5px; font-size: 0.9em;">{{ post.date | date: "%b %d, %Y" }}</p>
-            <h3 style="margin-top: 0; font-size: 1.2em; line-height: 1.3; overflow: hidden; text-overflow: ellipsis; display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical;">
+
+          <div style="padding: 10px; flex-grow: 1;">
+            <p style="color: #666; margin: 0 0 4px 0; font-size: 0.8em;">{{ post.date | date: "%b %d, %Y" }}</p>
+            <h3 style="margin: 0 0 4px 0; font-size: 1em; line-height: 1.2; overflow: hidden; text-overflow: ellipsis; display: -webkit-box; -webkit-line-clamp: 1; -webkit-box-orient: vertical;">
               <a href="{{ post.url | relative_url }}" style="text-decoration: none; color: inherit;">{{ post.title }}</a>
             </h3>
-            <p style="font-size: 0.9em; margin-bottom: 8px; overflow: hidden; text-overflow: ellipsis; display: -webkit-box; -webkit-line-clamp: 3; -webkit-box-orient: vertical;">{{ post.excerpt | strip_html | truncate: 100 }}</p>
-            <a href="{{ post.url | relative_url }}" style="font-weight: 500; display: inline-block;">Read more →</a>
+            <p style="margin: 0; font-size: 0.85em; color: #555; overflow: hidden; text-overflow: ellipsis; display: -webkit-box; -webkit-line-clamp: 1; -webkit-box-orient: vertical;">
+              {{ post.excerpt | strip_html | truncate: 80 }}
+            </p>
           </div>
         </div>
       </div>
     {% endfor %}
   </div>
-  
-  <button onclick="moveCarousel(-1)" style="position: absolute; left: 10px; top: 50%; transform: translateY(-50%); background: rgba(255,255,255,0.8); border: none; border-radius: 50%; width: 40px; height: 40px; display: flex; align-items: center; justify-content: center; cursor: pointer; box-shadow: 0 2px 5px rgba(0,0,0,0.1);">
-    <i class="fa-solid fa-chevron-left"></i>
-  </button>
-  
-  <button onclick="moveCarousel(1)" style="position: absolute; right: 10px; top: 50%; transform: translateY(-50%); background: rgba(255,255,255,0.8); border: none; border-radius: 50%; width: 40px; height: 40px; display: flex; align-items: center; justify-content: center; cursor: pointer; box-shadow: 0 2px 5px rgba(0,0,0,0.1);">
-    <i class="fa-solid fa-chevron-right"></i>
-  </button>
 </div>
 
 <div style="text-align: center; margin-top: 20px;">
@@ -72,70 +78,28 @@ icon="fa-solid fa-newspaper"
 %}
 </div>
 
-<script>
-  document.addEventListener('DOMContentLoaded', function() {
-    // Carousel variables
-    let currentIndex = 0;
-    const items = document.querySelectorAll('.carousel-item');
-    const totalItems = items.length;
-    const visibleItems = 3;  // Show 3 items at once
-    let carouselInterval;
-    
-    // Calculate max index (accounting for 3 visible items)
-    const maxIndex = Math.max(0, totalItems - visibleItems);
-
-    // Initialize carousel
-    updateCarousel();
-    startAutoScroll();
-
-    // Make functions available globally
-    window.moveCarousel = function(direction) {
-      currentIndex = Math.min(Math.max(0, currentIndex + direction), maxIndex);
-      updateCarousel();
-      resetAutoScroll();
-    };
-
-    function updateCarousel() {
-      const carousel = document.querySelector('.news-carousel');
-      carousel.style.transform = `translateX(-${currentIndex * 33.33}%)`;
-    }
-
-    function startAutoScroll() {
-      // Move to next slide every 4 seconds
-      carouselInterval = setInterval(() => {
-        if (currentIndex < maxIndex) {
-          currentIndex++;
-        } else {
-          currentIndex = 0;
-        }
-        updateCarousel();
-      }, 4000);
-    }
-
-    function resetAutoScroll() {
-      clearInterval(carouselInterval);
-      startAutoScroll();
-    }
-  });
-</script>
-
 {% include section.html %}
 
 ## Key Statistics
+
 {:.center}
 
 <div style="display: flex; flex-wrap: wrap; justify-content: center; gap: 30px; margin: 40px 0;">
-  <div style="text-align: center; flex: 1; min-width: 200px;">
-    <div style="font-size: 3em; font-weight: bold; color: var(--primary);">25+</div>
+  <div style="text-align: center; flex: 1; min-width: 120px; margin-bottom: 20px;">
+    <div style="font-size: calc(2em + 1vw); font-weight: bold; color: var(--primary);">25+</div>
     <div style="font-size: 1.2em;">Research Publications</div>
   </div>
-  <div style="text-align: center; flex: 1; min-width: 200px;">
-    <div style="font-size: 3em; font-weight: bold; color: var(--primary);">15+</div>
+  <div style="text-align: center; flex: 1; min-width: 120px; margin-bottom: 20px;">
+    <div style="font-size: calc(2em + 1vw); font-weight: bold; color: var(--primary);">15+</div>
     <div style="font-size: 1.2em;">Ongoing Projects</div>
   </div>
-  <div style="text-align: center; flex: 1; min-width: 200px;">
-    <div style="font-size: 3em; font-weight: bold; color: var(--primary);">40+</div>
+  <div style="text-align: center; flex: 1; min-width: 120px; margin-bottom: 20px;">
+    <div style="font-size: calc(2em + 1vw); font-weight: bold; color: var(--primary);">40+</div>
     <div style="font-size: 1.2em;">Collaborations</div>
+  </div>
+  <div style="text-align: center; flex: 1; min-width: 120px; margin-bottom: 20px;">
+    <div style="font-size: calc(2em + 1vw); font-weight: bold; color: var(--primary);">4</div>
+    <div style="font-size: 1.2em;">Funded Projects</div>
   </div>
 </div>
 
@@ -194,7 +158,7 @@ text=text
 
 Our team consists of dedicated researchers, talented engineers, and visionary thinkers. Together, we collaborate to drive innovation and make significant contributions to our fields of expertise.
 
-{%
+{%  
 include button.html
 link="team"
 text="Meet our team"
@@ -213,9 +177,33 @@ title="Our Team"
 text=text
 %}
 
+{% capture text %}
+
+We've secured external funding for various research initiatives, working with government agencies and industry partners to develop solutions for real-world problems.
+
+{%
+include button.html
+link="funding"
+text="Explore funded projects"
+icon="fa-solid fa-arrow-right"
+flip=true
+style="bare"
+%}
+
+{% endcapture %}
+
+{%
+include feature.html
+image="images/photo.jpg"
+link="funding"
+title="Funded Projects"
+flip=true
+text=text
+%}
 {% include section.html %}
 
 ## Connect With Us
+
 {:.center}
 
 Interested in collaborating or learning more about our research initiatives? We're always looking for talented students, researchers, and industry partners to join our community.
@@ -228,3 +216,25 @@ text="Get in Touch"
 icon="fa-solid fa-envelope"
 %}
 </div>
+
+<!-- Add viewport meta tag for better mobile rendering -->
+<style>
+  @media (max-width: 768px) {
+    h1 {
+      font-size: calc(1.5rem + 2vw);
+    }
+    h2 {
+      font-size: calc(1.3rem + 1vw);
+    }
+    .feature {
+      flex-direction: column !important;
+    }
+    .feature .feature-image {
+      width: 100% !important;
+      margin-bottom: 20px;
+    }
+    .feature .feature-text {
+      width: 100% !important;
+    }
+  }
+</style>
