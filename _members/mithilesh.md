@@ -1,7 +1,7 @@
 ---
 name: B Mithilesh
 image: images/photo.jpg
-role: Undergrad
+role: undergrad
 affliation : VIT AP University
 description: 
 links:
