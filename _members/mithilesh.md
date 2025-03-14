@@ -6,7 +6,7 @@ affliation : VIT AP University
 description: 
 links:
   email: Mitumithilesh1@gmail.com
-  twitter: zhreyu
+  twitter: 
   github : github.com/kingsmen732
 ---
 
