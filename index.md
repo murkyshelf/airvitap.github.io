@@ -10,6 +10,18 @@ The AIR Lab is an initiative brought to reality at VIT-AP University and is the 
 
 {% include section.html %}
 
+## Latest News
+
+{% capture content %}
+{% for post in site.posts limit:5 %}
+  <div style="margin-bottom: 10px; text-align: left;">
+    <strong>{{ post.date | date: "%b %d, %Y" }}</strong> &nbsp;
+    <a href="{{ post.url | relative_url }}">{{ post.title }}</a>
+  </div>
+{% endfor %}
+{% endcapture %}
+{{ content | markdownify }}
+
 ## Highlights
 {% capture text %}
 Our research focuses on cutting-edge technologies and innovative solutions in the fields of cybersecurity, IoT, and artificial intelligence. We strive to push the boundaries of knowledge and create impactful advancements that address real-world challenges.
