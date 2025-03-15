@@ -1,13 +1,12 @@
-- id: doi:10.1109/ACCESS.2022.3216665
+- id: doi:10.1145/3660628
   tyoe: 'journal'
-  description:: 'Loki: A Physical Security Key Compatible IoT Based Lock for Protecting Physical
-    Assets'
-  date: '2022-01-01'
+  description:: 'mCaptcha: Replacing Captchas with Rate Limiters to Improve Security and Accessibility'
+  date: '2024-09-26'
   tags:
-    - open science
-    - collaboration
+    - Captcha
+    - Security
 
-
+-id: doi:10.1109/JSEN.2024.3487070
 - id: doi:10.1109/ICDCSW63686.2024.00023
 
 - id: doi:10.1145/3660628
