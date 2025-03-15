@@ -1,6 +1,6 @@
 ---
-name: Dr Sibi Chakravarthy S
-image: images/photo.jpg
+name: Dr. Sibi Chakkaravarthy S
+image: images/Dr_Sibi_Chakkaravarthy_S_70084_0587_206cccb3ec.avif
 role: coordinator
 affiliation: VIT AP University
 aliases:

@@ -1,6 +1,6 @@
 ---
 name: Dr Hari Seetha
-image: images/photo.jpg
+image: images/Dr_Hari_Seetha_SCOPE_0741_2b647e6904.avif
 role: director
 affiliation: VIT AP University
 aliases:
