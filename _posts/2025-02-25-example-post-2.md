@@ -2,7 +2,7 @@
 title: "Our research on passwordless authentication in the Metaverse has been featured in TechXplore! The article discusses our innovative three-stage authentication system, MetaSecure, which enhances security for digital identities in virtual environments. Team: Aditya Mitra, Anisha Ghosh & Sibi Chakkaravarthy S"
 image: images/a-three-stage-authenti.jpg
 author: sai-sanjay
-tags: biology, medicine
+tags: metaverse, passwordless
 ---
 
 
