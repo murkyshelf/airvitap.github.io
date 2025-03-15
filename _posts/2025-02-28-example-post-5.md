@@ -1,8 +1,8 @@
 ---
-title: Example post 5
-image: images/photo.jpg
-author: john-doe
-tags: biology, medicine
+title: Prof. Sibi Chakkaravarthy Sethuraman delivered a technical session in RBI on Digital Payment Security
+image: images/rbi-technical-session.jpeg
+author: sai-sanjay
+tags: rbi, payment-security
 ---
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+Prof. Sibi Chakkaravarthy Sethuraman delivered a technical session in RBI on Digital Payment Security

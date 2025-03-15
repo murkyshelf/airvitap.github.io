@@ -1,8 +1,11 @@
 ---
-title: Example post 1
-image: images/photo.jpg
-author: john-doe
-tags: biology, medicine
+title: "Our research paper, 'TUSH-Key: Transferable User Secrets on Hardware Key, 'was presented at the 30th IEEE International Conference on Parallel and Distributed Systems (ICPADS 2024)."
+image: images/tush-key.png
+author: sai-sanjay
+tags: ieee, tush-key
 ---
+Visit :
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+<!-- ![tush-key](images/tush-key.png) -->
+
+[https://www.computer.org/csdl/proceedings-article/icpads/2024/159600a176/22f0wZ8F21y](https://www.computer.org/csdl/proceedings-article/icpads/2024/159600a176/22f0wZ8F21y)

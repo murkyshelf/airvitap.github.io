@@ -1,8 +1,10 @@
 ---
-title: Example post 3
+title: AIR celebrates the successful completion of LLM Security bootcamp in association with IITM and NULL Vijayawada
 image: images/photo.jpg
-author: john-doe
-tags: biology, medicine
+author: sai-sanjay
+tags: llm, adversarial
 ---
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+AIR celebrates the successful completion of LLM Security bootcamp in association with IITM and NULL Vijayawada
+
+Site : [llm.nullvijayawada.org](llm.nullvijayawada.org)
